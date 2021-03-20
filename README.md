@@ -19,7 +19,7 @@ If you haven't installed Chocolatey, install it first.
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
 
-![img](images\clip_image001.jpg)
+![image001](./images/clip_image001.jpg)
 
 Then, install RabbitMQ in Powershell.
 
@@ -29,10 +29,10 @@ Then, install RabbitMQ in Powershell.
 choco install rabbitmq
 ```
 
-![image-20210320171640059](images\clip_image002.jpg)
+![image002](./images/clip_image002.jpg)
 
 
 
 Then you can run the solution file and then debug it can be debugged.
 
-![image-20210320171945881](images\clip_image003.jpg)
+![image003](./images/clip_image003.jpg)
